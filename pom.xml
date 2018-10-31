@@ -10,7 +10,22 @@
   <description>Provide an example of configuring a Maven project to use the Black Duck CoPilot application</description>
   <url>https://github.com/BlackDuckCoPilot/example-maven-travis</url>
   <inceptionYear>2017</inceptionYear>
-
+  <build>
+        <plugins>
+            <plugin>
+              <groupId>org.owasp</groupId>
+              <artifactId>dependency-check-maven</artifactId>
+              <version>3.3.4</version>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>check</goal>
+                      </goals>
+                  </execution>
+              </executions>
+            </plugin>
+        </plugins>
+    </build>
   <scm>
     <connection>scm:git:git://github.com/blackducksoftware/hub-common.git/</connection>
     <developerConnection>scm:git:git@github.com:BlackDuckCoPilot/example-maven-travis.git</developerConnection>
