@@ -41,7 +41,7 @@
                           <goal>check</goal>
                       </goals>
                   </execution>
-              </executions>
+               </executions>
             </plugin>
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
