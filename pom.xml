@@ -29,7 +29,20 @@
       <version>7.0.65</version>
       <type>pom</type>
     </dependency>
-
+<dependency>
+    <groupId>org.springframework.batch</groupId>
+    <artifactId>spring-batch-admin-manager</artifactId>
+    <version>1.2.2.RELEASE</version>
+</dependency>
+	  <groupId>org.springframework.integration</groupId>
+    <artifactId>spring-integration-security</artifactId>
+    <version>4.2.1.RELEASE</version>
+</dependency>
+	<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-ext</artifactId>
+    <version>1.7</version>
+</dependency>
 
   </dependencies>
   <build>
@@ -46,7 +59,7 @@
                   </execution>
                </executions>
             </plugin>
-	    <!--
+	   
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
       		<artifactId>ossindex-maven-plugin</artifactId>
@@ -61,7 +74,7 @@
         	  </execution>
       		</executions>
     	   </plugin>
-	   -->
+	  
         </plugins>
     </build>
 </project>
