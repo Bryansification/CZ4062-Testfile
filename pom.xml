@@ -33,11 +33,6 @@
       <artifactId>spring-integration-security</artifactId>
       <version>4.2.1.RELEASE</version>
     </dependency>
-	  <dependency>
-      <groupId>org.apache.tomcat</groupId>
-      <artifactId>tomcat</artifactId>
-      <version>9.0.0.M9</version>
-    </dependency>
   </dependencies>
   <build>
         <plugins>
