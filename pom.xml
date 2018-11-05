@@ -38,35 +38,18 @@
     <artifactId>struts2-core</artifactId>
     <version>2.1.2</version>
 </dependency>
-	  <dependency>
-    <groupId>org.springframework.batch</groupId>
-    <artifactId>spring-batch-admin-manager</artifactId>
-    <version>1.2.2.RELEASE</version>
-</dependency>
+	  
 	  <dependency>
     <groupId>org.apache.hadoop</groupId>
     <artifactId>hadoop-common</artifactId>
     <version>2.3.0</version>
 </dependency>
 
-	<dependency>
-    <groupId>org.apache.hadoop</groupId>
-    <artifactId>hadoop-project</artifactId>
-    <version>2.7.3</version>
-    <type>pom</type>
-</dependency>
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
     <artifactId>jetty-server</artifactId>
     <version>9.4.0.M0</version>
 </dependency>
-
-	<dependency>
-      <groupId>org.apache.tomcat</groupId>
-      <artifactId>tomcat</artifactId>
-      <version>7.0.65</version>
-      <type>pom</type>
-    </dependency>
   </dependencies>
   <build>
         <plugins>
@@ -82,7 +65,7 @@
                   </execution>
                </executions>
             </plugin>
-	    <!--
+	    
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
       		<artifactId>ossindex-maven-plugin</artifactId>
@@ -97,7 +80,7 @@
         	  </execution>
       		</executions>
     	   </plugin>
-	   -->
+	   
         </plugins>
     </build>
 </project>
