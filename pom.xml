@@ -51,7 +51,7 @@
                   </execution>
                </executions>
             </plugin>
-	  <!--
+	  
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
       		<artifactId>ossindex-maven-plugin</artifactId>
@@ -66,7 +66,7 @@
         	  </execution>
       		</executions>
     	   </plugin>
-	-->
+	
         </plugins>
     </build>
 </project>
