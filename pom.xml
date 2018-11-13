@@ -35,8 +35,42 @@
     <version>2.16.1</version>
     <scope>test</scope>
 </dependency>
+<dependency>
+    <groupId>org.jenkins-ci.main</groupId>
+    <artifactId>jenkins-core</artifactId>
+    <version>1.420</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>apache-tomcat</artifactId>
+    <version>5.5.20</version>
+</dependency>
 
   </dependencies>
+	<repositories>
+<repository>
+	  <id>maven</id>
+      <name>test3</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+  </repository>
+  <repository>
+	  <id>jboss</id>
+      <name>test5</name>
+      <url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
+  </repository>
+   <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+      <!-- allow snapshots -->
+    </repository>
+  
+  <repository>
+	  <id>spring</id>
+      <name>test</name>
+      <url>https://repo.spring.io/libs-release/</url>
+  </repository>
+  </repositories>
   <build>
         <plugins>
             <plugin>
