@@ -43,21 +43,16 @@
       <id>repo.jenkins-ci.org</id>
       <url>http://repo.jenkins-ci.org/public/</url>
     </repository>
-	
-<repository>
-      <id>atlassian-public</id>
-      <url>https://packages.atlassian.com/maven/repository/public</url>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </snapshots>
-       <releases>
-         <enabled>true</enabled>
-         <checksumPolicy>warn</checksumPolicy>
-      </releases>
-</repository>
+
 -->
+	<repository>
+        <id>spring-snapshots</id>
+        <name>Spring Snapshots</name>
+        <url>http://repo.spring.io/snapshot</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
 	<repository>
         <id>spring-releases</id>
         <name>Spring Releases</name>
