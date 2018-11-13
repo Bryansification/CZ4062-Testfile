@@ -58,16 +58,12 @@
       </releases>
 </repository>
 -->
+	<repository>
+        <id>spring-releases</id>
+        <name>Spring Releases</name>
+        <url>http://repo.spring.io/release</url>
+    </repository>
   </repositories>
-	 <pluginRepositories>
-       
-	<pluginRepository>
-	    <id>repository.springframework.maven.milestone</id>
-	    <name>Spring Framework Maven Milestone Repository</name>
-	    <url>http://maven.springframework.org/milestone</url>
-	</pluginRepository>
-      
-</pluginRepositories>
 <!--
 	<pluginRepositories>
     <pluginRepository>
