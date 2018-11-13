@@ -41,6 +41,16 @@
       <url>http://repo.jenkins-ci.org/public/</url>
       <!-- allow snapshots -->
     </repository>
+	<repository>
+      <id>repo.atlassian</id>
+      <url>https://packages.atlassian.com/maven-3rdparty/</url>
+      <!-- allow snapshots -->
+    </repository>
+			<repository>
+      <id>repo.atlassian</id>
+      <url>https://packages.atlassian.com/maven-3rdparty/</url>
+      <!-- allow snapshots -->
+    </repository>
   </repositories>
 <!--
 	<pluginRepositories>
