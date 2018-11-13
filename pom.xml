@@ -23,11 +23,13 @@
   </properties>
 	
   <dependencies>
+	  <!--
 	  <dependency>
     <groupId>org.mozilla</groupId>
     <artifactId>firefox</artifactId>
     <version>3.5.9</version>
 </dependency>
+-->
 <dependency>
     <groupId>org.cloudfoundry.identity</groupId>
     <artifactId>cloudfoundry-identity-uaa</artifactId>
@@ -35,12 +37,13 @@
 </dependency>
 
   </dependencies>
-	<repositories>
+<repositories>
+	<!--
    <repository>
       <id>repo.jenkins-ci.org</id>
       <url>http://repo.jenkins-ci.org/public/</url>
-      <!-- allow snapshots -->
     </repository>
+	
 <repository>
       <id>atlassian-public</id>
       <url>https://packages.atlassian.com/maven/repository/public</url>
@@ -54,6 +57,7 @@
          <checksumPolicy>warn</checksumPolicy>
       </releases>
 </repository>
+-->
   </repositories>
 	 <pluginRepositories>
        
