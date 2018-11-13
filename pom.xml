@@ -55,6 +55,15 @@
       </releases>
 </repository>
   </repositories>
+	 <pluginRepositories>
+       
+	<pluginRepository>
+	    <id>repository.springframework.maven.milestone</id>
+	    <name>Spring Framework Maven Milestone Repository</name>
+	    <url>http://maven.springframework.org/milestone</url>
+	</pluginRepository>
+      
+</pluginRepositories>
 <!--
 	<pluginRepositories>
     <pluginRepository>
