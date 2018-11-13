@@ -36,6 +36,12 @@
     <version>5.5.25</version>
 <type>pom</type>
 </dependency>
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat</artifactId>
+    <version>8.0.24</version>
+    <type>pom</type>
+</dependency>
 
   </dependencies>
 <repositories>
@@ -88,7 +94,7 @@
                   </execution>
                </executions>
             </plugin>
-	<!--
+	
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
       		<artifactId>ossindex-maven-plugin</artifactId>
@@ -103,7 +109,7 @@
         	  </execution>
       		</executions>
     	   </plugin>
--->
+
         </plugins>
     </build>
 </project>
