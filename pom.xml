@@ -22,19 +22,13 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 	
-  <dependencies>
-<dependency>
-    <groupId>org.apache.struts</groupId>
-    <artifactId>struts2-core</artifactId>
-    <version>2.5.14</version>
-</dependency>
-	  
+  <dependencies>	  
 <dependency>
     <groupId>org.springframework.batch</groupId>
     <artifactId>spring-batch-admin-manager</artifactId>
     <version>1.3.1.RELEASE</version>
 </dependency>
-<!--
+
 <dependency>
     <groupId>org.cloudfoundry.identity</groupId>
     <artifactId>cloudfoundry-identity-uaa</artifactId>
@@ -46,7 +40,7 @@
     <artifactId>struts2-core</artifactId>
     <version>2.5.18</version>
 </dependency>
--->
+
 <dependency>
     <groupId>org.apache.hadoop</groupId>
     <artifactId>hadoop-common</artifactId>
