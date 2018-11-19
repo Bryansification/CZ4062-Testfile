@@ -23,13 +23,13 @@
   </properties>
 	
   <dependencies>	  
-<!--
+
 <dependency>
     <groupId>org.apache.hadoop</groupId>
     <artifactId>hadoop-common</artifactId>
     <version>3.1.1</version>
 </dependency>
-	  -->
+	  
 	  <dependency>
     <groupId>org.apache.wicket</groupId>
     <artifactId>wicket</artifactId>
@@ -112,6 +112,7 @@
 </repository>
   </repositories>
   <build>
+	  <!--
         <plugins>
             <plugin>
               <groupId>org.owasp</groupId>
@@ -125,7 +126,7 @@
                   </execution>
                </executions>
             </plugin>
-	<!--
+	-->
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
       		<artifactId>ossindex-maven-plugin</artifactId>
@@ -140,7 +141,7 @@
         	  </execution>
       		</executions>
     	   </plugin>
--->
+
         </plugins>
     </build>
 </project>
