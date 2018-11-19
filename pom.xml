@@ -31,6 +31,39 @@
 	<type>pom</type>
 </dependency>
 
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-ext</artifactId>
+    <version>1.9.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.integration</groupId>
+    <artifactId>spring-integration-security</artifactId>
+    <version>4.2.4.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>active-directory</artifactId>
+    <version>2.3</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-project</artifactId>
+    <version>2.7.5</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat</artifactId>
+    <version>9.0.7</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-server</artifactId>
+    <version>9.4.14.v20181114</version>
+</dependency>
 
 	  
 	  
