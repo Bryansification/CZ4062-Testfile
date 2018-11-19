@@ -48,6 +48,7 @@
     <artifactId>hadoop-common</artifactId>
     <version>3.1.1</version>
 </dependency>
+	  <dependency>
     <groupId>org.apache.wicket</groupId>
     <artifactId>wicket</artifactId>
     <version>7.10.0</version>
