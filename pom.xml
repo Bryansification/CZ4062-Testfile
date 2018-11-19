@@ -38,6 +38,11 @@
 </dependency>
 -->
 
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>apache-tomcat</artifactId>
+    <version>7.0.32</version>
+</dependency>
 
 
   </dependencies>
@@ -106,7 +111,7 @@
                   </execution>
                </executions>
             </plugin>
-	
+	<!--
 	    <plugin>
       		<groupId>org.sonatype.ossindex.maven</groupId>
       		<artifactId>ossindex-maven-plugin</artifactId>
@@ -121,7 +126,7 @@
         	  </execution>
       		</executions>
     	   </plugin>
-
+-->
         </plugins>
     </build>
 </project>
