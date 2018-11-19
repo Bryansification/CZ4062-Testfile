@@ -42,6 +42,7 @@
     <groupId>org.apache.tomcat</groupId>
     <artifactId>apache-tomcat</artifactId>
     <version>7.0.32</version>
+	<type>zip</type>
 </dependency>
 
 
