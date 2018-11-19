@@ -37,6 +37,7 @@
     <groupId>org.cloudfoundry.identity</groupId>
     <artifactId>cloudfoundry-identity-uaa</artifactId>
     <version>4.1.0</version>
+	<type>pom</type>
 </dependency>
 <dependency>
     <groupId>org.apache.struts</groupId>
