@@ -87,11 +87,13 @@
 		<artifactId>resteasy-jaxrs</artifactId>
 		<version>4.0.0.Beta5</version>
 	</dependency>
+	<!--
 	<dependency>
 		<groupId>org.apache.myfaces</groupId>
 		<artifactId>com.springsource.org.apache.myfaces.javax.faces</artifactId>
 		<version>1.2.2</version>
 	</dependency>
+-->
 	<dependency>
 		<groupId>org.apache.qpid</groupId>
 		<artifactId>qpid-client</artifactId>
