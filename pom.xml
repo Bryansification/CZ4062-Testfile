@@ -59,11 +59,13 @@
 		<artifactId>struts2-core</artifactId>
 		<version>2.3.8</version>
 	</dependency>
+	<!--
 	<dependency>
 		<groupId>org.apache.tomcat</groupId>
 		<artifactId>tomcat-catalina</artifactId>
 		<version>8.5.3</version>
 	</dependency>
+-->
 	<dependency>
 		<groupId>io.netty</groupId>
 		<artifactId>netty</artifactId>
@@ -127,21 +129,6 @@
 		<version>1.6.0</version>
 	</dependency>
 	<dependency>
-		<groupId>com.sun.mail</groupId>
-		<artifactId>javax.mail</artifactId>
-		<version>1.6.0</version>
-	</dependency>
-	<dependency>
-		<groupId>com.sun.mail</groupId>
-		<artifactId>javax.mail</artifactId>
-		<version>1.6.0</version>
-	</dependency>
-	<dependency>
-		<groupId>com.sun.mail</groupId>
-		<artifactId>javax.mail</artifactId>
-		<version>1.6.0</version>
-	</dependency>
-	<dependency>
 		<groupId>com.google.android</groupId>
 		<artifactId>android</artifactId>
 		<version>2.3.3</version>
@@ -156,11 +143,6 @@
 		<groupId>org.apache.shiro</groupId>
 		<artifactId>shiro-core</artifactId>
 		<version>1.0.0-incubating</version>
-	</dependency>
-	<dependency>
-		<groupId>com.sun.mail</groupId>
-		<artifactId>javax.mail</artifactId>
-		<version>1.6.0</version>
 	</dependency>
 	<dependency>
 		<groupId>org.glassfish.core</groupId>
@@ -182,11 +164,6 @@
 	    <groupId>org.springframework.data</groupId>
 	    <artifactId>spring-data-commons</artifactId>
 	    <version>1.12.10.RELEASE</version>
-	</dependency>
-	<dependency>
-	    <groupId>org.springframework.data</groupId>
-	    <artifactId>spring-data-commons</artifactId>
-	    <version>1.13.0.RELEASE</version>
 	</dependency>
   </dependencies>
 </project>
